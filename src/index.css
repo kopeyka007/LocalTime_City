@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #EFF1F4;
+
+}
+.flex{
+  display:flex
+}
+
+#chart{
+  width:530px;
+  height:370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position:relative;
+  bottom:70px;
+  left:70px;
+
+}
+.form{
+  height:40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.form:before{
+  content:"";
+  width:30px;
+  height:25px;
+  border-radius:30px;
+  background-color: brown;
+  margin-right: 5px;
+  border: 3px solid #B3B3B3
+}
+.form:after{
+  content:"";
+  width:30px;
+  height:25px;
+  border-radius:30px;
+  background-color: black;
+  border: 3px solid #B3B3B3
+}
+.sidebar{
+  width:300px;
+}
+input{
+  width:100px;
+  height:30px;
+  border-radius: 3px;
+  border: solid 2px grey;
+  text-align: center;
+}
+
+input:last-child:hover{
+  border:solid 2px darkgreen;
+  cursor: pointer;
+}
+.pac-container{
+  width:300px !important;
+}
+
+.time{
+  margin-top:30px;
+  border-radius:5px;
+}
+.timeNow{
+  height:70px;
+}
+.timeScale{
+  display: flex;
+  justify-content: space-around;
+  height:350px;
+
+}
+.wrapper_regions_div{
+  width:350px;
+  margin-left:100px;
+}
+.wrapper{
+  display:flex;
+
+
+}
+
+
+.wrapperMenu{
+  display:flex;
+  justify-content: space-between;
+  background-color: red;
+  height:40px;
+  width:100%;
+}
+#search_form{
+  display:flex;
+}
+#time_zone1{
+  text-align: center;
+  color:brown
+}
+#time_zone2{
+  color:black
+}
+.timeNow{
+  display:flex;
+  justify-content: space-around;
+  font-size:30px;
+}
+
+#table2{
+  margin-left: 60px;
+}
+.color{
+  size:40px;
+}
+.span{
+  font-size: 20px;
+}
+h1{
+  font-size:40px;
+  text-align: center;
+  color:darkgreen;
+  font-family: "Arial Black";
+  height:80px;
+
+}
+.slider-wrapper {
+  display: inline-block;
+  width: 40px;
+  height: 150px;
+  padding: 0;
+  margin-top: 30px;
+}
+.slider-wrapper input {
+  width: 150px;
+  height: 10px;
+  transform-origin: 75px 75px;
+  transform: rotate(-90deg);
+  margin-top:140px;
+}
+.background{
+  background-image: url("images/hands.png");
+  background-position: center;
+  height:600px;
+  width:500px;
+}
+#result{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  text-align: center;
+  padding: 15px 0 0 15px;
+}
+.flex{
+  display:flex;
+  justify-content: space-around;
+}
+

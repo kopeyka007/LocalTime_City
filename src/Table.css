@@ -1,0 +1,22 @@
+
+.z0,.z18,.z19,.z22,.z23,.z24,.z1,.z2,.z3,.z4,.z5,.z6,.z20,.z21{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+
+}
+.z7,.z8,.z9,.z10,.z11,.z12,.z13,.z14,.z15,.z16,.z17{
+    background-color: #A52A2A;
+    color:white;
+    font-weight: bold
+}
+.z18{
+    background: linear-gradient(to top, black , #A52A2A);
+}
+.z6{
+    background: linear-gradient(to top,#A52A2A,black);
+}
+td{
+    text-align:center;
+    color:#EFF1F4
+}
