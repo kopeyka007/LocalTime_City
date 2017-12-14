@@ -9,14 +9,16 @@ class ExampleChart extends React.Component {
         super(props);
         this.state = {
             options: {
-                backgroundColor:"transparent",
-                datalessRegionColor: 'green',
-                width: 340,
+                backgroundColor: 'transparent',
+                datalessRegionColor: '#DDDDDD',
+                defaultColor: '#DDDDDD',
+                width: 540,
                 region: 'world',
-                displayMode: 'markers',
+                displayMode: 'regions',
                 sizeAxis: { minValue: 0, maxValue: 10 },
-                colorAxis: {colors: ["brown", "black"]},
-                legend:"none"
+                legend:"none",
+                colorAxis: {colors: ['#95B8DA']},
+
 
 
             },
@@ -27,9 +29,9 @@ class ExampleChart extends React.Component {
             <Chart
                 chartType="GeoChart"
                 data={ [
-                    ['City','Area City'],
+                    ['City','Color'],
                     [this.props.testStore.city1[this.props.testStore.city1.length-1],2],
-                    [this.props.testStore.city2[this.props.testStore.city2.length-1],3]
+                    [this.props.testStore.city2[this.props.testStore.city2.length-1],2]
 
 
                     ]}
